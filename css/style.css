@@ -957,6 +957,7 @@ body {
     clip-path: url(#polygon);
     height: 700px;
     width: 200px;
+    background: linear-gradient(to top, #000000b5, transparent);
     background-size: cover;
     position: absolute;
     transform-origin: top center;
