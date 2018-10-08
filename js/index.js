@@ -53,15 +53,5 @@ $(function() {
                         "deg,transparent 30%,#000000c9)"
                 });
             });
-        $(this)
-            .find(".tile10Blur")
-            .each(function(i) {
-                $(this).css({
-                    background:
-                        "linear-gradient(" +
-                        -e.pageX / 30 +
-                        "deg,transparent 30%,#000000c9)"
-                });
-            });
     });
 });
