@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #111;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1039,6 +1039,18 @@ body {
     height: 493px;
     width: 700px;
     background: linear-gradient(to right, #000000b5, transparent);
+    filter: multiply(100%);
+    background-size: cover;
+    position: absolute;
+    transform-origin: top center;
+}
+.tile13Blur {
+    /* 86.6% = ratio of height to width of equilateral triangle */
+    -webkit-clip-path: polygon(50% 0, 0 86.6%, 100% 86.6%, 50% 0);
+    clip-path: url(#polygon);
+    height: 493px;
+    width: 700px;
+    background: linear-gradient(to left, #000000b5, transparent);
     filter: multiply(100%);
     background-size: cover;
     position: absolute;
