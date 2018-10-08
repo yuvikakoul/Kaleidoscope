@@ -573,6 +573,23 @@ body {
     /* box-shadow: 0px 0px 6px #444; */
     transform-origin: 50% 50% -350px;
 }
+.side10Blur {
+    right: 202px;
+    top: 194px;
+    width: 699px;
+    height: 299px;
+    position: absolute;
+    /* background: rgba(0, 0, 0, 0.3);
+    background: radial-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)); */
+    border-radius: 10px;
+    color: #fff;
+    font-size: 5em;
+    line-height: 700px;
+    text-align: center;
+    text-shadow: 0px 1px 3px #fff;
+    /* box-shadow: 0px 0px 6px #444; */
+    transform-origin: 50% 50% -350px;
+}
 .side10alt {
     right: 202px;
     top: 195px;
@@ -821,6 +838,24 @@ body {
     box-shadow: inset 15px 15px 15px rgba(255, 255, 255, 0.21),
         inset -15px -15px 15px rgba(0, 0, 0, 0.6); */
 }
+.tileSolid {
+    /* 86.6% = ratio of height to width of equilateral triangle */
+    -webkit-clip-path: polygon(50% 0, 0 86.6%, 100% 86.6%, 50% 0);
+    clip-path: url(#polygon);
+    height: 700px;
+    width: 700px;
+    background: #141414;
+    background-size: cover;
+    position: absolute;
+    transform-origin: top center;
+    font-weight: 600;
+    /* -moz-box-shadow: inset 15px 15px 15px rgba(255, 255, 255, 0.21),
+        inset -15px -15px 15px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: inset 15px 15px 15px rgba(255, 255, 255, 0.21),
+        inset -15px -15px 15px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 15px 15px 15px rgba(255, 255, 255, 0.21),
+        inset -15px -15px 15px rgba(0, 0, 0, 0.6); */
+}
 .tile4Solid {
     /* 86.6% = ratio of height to width of equilateral triangle */
     -webkit-clip-path: polygon(50% 0, 0 86.6%, 100% 86.6%, 50% 0);
@@ -967,7 +1002,19 @@ body {
     clip-path: url(#polygon);
     height: 300px;
     width: 700px;
-    /* background: linear-gradient(#000000a1, transparent); */
+    background: linear-gradient(to left, #000000b5, transparent);
+    filter: multiply(100%);
+    background-size: cover;
+    position: absolute;
+    transform-origin: top center;
+}
+.tile10Blur {
+    /* 86.6% = ratio of height to width of equilateral triangle */
+    -webkit-clip-path: polygon(50% 0, 0 86.6%, 100% 86.6%, 50% 0);
+    clip-path: url(#polygon);
+    height: 300px;
+    width: 700px;
+    background: linear-gradient(to left, #000000b5, transparent);
     filter: multiply(100%);
     background-size: cover;
     position: absolute;
