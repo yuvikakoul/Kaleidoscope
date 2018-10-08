@@ -1,0 +1,1 @@
+$(document).mousemove(function(e) {});
