@@ -1134,7 +1134,7 @@ a {
     margin: auto;
     -webkit-clip-path: polygon(0px 700px, 700px 700px, 700px 0px, 0px 0px);
     clip-path: polygon(0px 700px, 700px 700px, 700px 0px, 0px 0px);
-    filter: blur(8px);
+    filter: blur(5px);
 }
 .kal_main7Alt {
     overflow: hidden;
@@ -1152,7 +1152,7 @@ a {
     margin: auto;
     -webkit-clip-path: polygon(0px 494px, 700px 494px, 700px 0px, 0px 0px);
     clip-path: polygon(0px 494px, 700px 494px, 700px 0px, 0px 0px);
-    filter: blur(8px);
+    filter: blur(5px);
 }
 
 .kal_cont {
@@ -1194,7 +1194,7 @@ a {
     left: 100%;
     top: 0;
 
-    background-image: url(../assets/bg17.jpg);
+    background-image: url(../assets/bg9.jpg);
 }
 
 /* styles for each sector */

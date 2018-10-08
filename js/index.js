@@ -50,7 +50,7 @@ $(function() {
                     background:
                         "linear-gradient(" +
                         -e.pageX / 30 +
-                        "deg,#000000c9,transparent 30%)"
+                        "deg,transparent 30%,#000000c9)"
                 });
             });
     });
