@@ -962,6 +962,17 @@ body {
     position: absolute;
     transform-origin: top center;
 }
+.tile8Blur {
+    /* 86.6% = ratio of height to width of equilateral triangle */
+    -webkit-clip-path: polygon(50% 0, 0 86.6%, 100% 86.6%, 50% 0);
+    clip-path: url(#polygon);
+    height: 700px;
+    width: 200px;
+    background: linear-gradient(to bottom, #000000b5, transparent);
+    background-size: cover;
+    position: absolute;
+    transform-origin: top center;
+}
 .tile7Solid {
     /* 86.6% = ratio of height to width of equilateral triangle */
     -webkit-clip-path: polygon(50% 0, 0 86.6%, 100% 86.6%, 50% 0);
@@ -1027,7 +1038,7 @@ body {
     clip-path: url(#polygon);
     height: 493px;
     width: 700px;
-    /* background: linear-gradient(#000000a1, transparent); */
+    background: linear-gradient(to right, #000000b5, transparent);
     filter: multiply(100%);
     background-size: cover;
     position: absolute;
