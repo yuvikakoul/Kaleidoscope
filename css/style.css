@@ -104,11 +104,11 @@ body {
     clip-path: polygon(
         0px 700px,
         200px 700px,
-        200px 488px,
-        412px 700px,
-        599px 528px,
-        384px 318px,
-        599px 104px,
+        200px 489px,
+        410px 700px,
+        611px 700px,
+        260px 349px,
+        611px 0px,
         414px 0px,
         200px 210px,
         200px 0px,
@@ -117,11 +117,11 @@ body {
     -webkit-clip-path: polygon(
         0px 700px,
         200px 700px,
-        200px 488px,
-        412px 700px,
-        599px 528px,
-        384px 318px,
-        599px 104px,
+        200px 489px,
+        410px 700px,
+        611px 700px,
+        260px 349px,
+        611px 0px,
         414px 0px,
         200px 210px,
         200px 0px,
@@ -327,7 +327,7 @@ body {
 }
 .side12 {
     top: 488px;
-    left: 500px;
+    left: 501px;
     width: 700px;
     height: 210px;
     position: absolute;
@@ -344,7 +344,7 @@ body {
 }
 .side12alt {
     top: 488px;
-    left: 500px;
+    left: 501px;
     width: 699px;
     height: 209px;
     position: absolute;
@@ -361,7 +361,7 @@ body {
 }
 .side12Blur {
     top: 487px;
-    left: 500px;
+    left: 502px;
     width: 701px;
     height: 211px;
     position: absolute;
@@ -557,8 +557,8 @@ body {
 }
 
 .side10 {
-    right: 204px;
-    top: 198px;
+    right: 202px;
+    top: 196px;
     width: 699px;
     height: 299px;
     position: absolute;
@@ -574,8 +574,8 @@ body {
     transform-origin: 50% 50% -350px;
 }
 .side10alt {
-    right: 204px;
-    top: 197px;
+    right: 202px;
+    top: 195px;
     width: 700px;
     height: 300px;
     position: absolute;
@@ -592,10 +592,10 @@ body {
 }
 
 .side9 {
-    top: 192px;
-    left: -362px;
+    top: 176px;
+    left: -331px;
     width: 700px;
-    height: 400px;
+    height: 494px;
     position: absolute;
     background: rgba(0, 0, 0, 0.3);
     background: radial-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
@@ -609,10 +609,10 @@ body {
     transform-origin: 50% 50% -350px;
 }
 .side9Blur {
-    top: 192px;
-    left: -361px;
+    top: 175px;
+    left: -331px;
     width: 701px;
-    height: 401px;
+    height: 495px;
     position: absolute;
     border-radius: 10px;
     color: #fff;
@@ -624,10 +624,10 @@ body {
     transform-origin: 50% 50% -350px;
 }
 .side9alt {
-    top: 192px;
-    left: -363px;
+    top: 177px;
+    left: -331px;
     width: 699px;
-    height: 399px;
+    height: 493px;
     position: absolute;
     /* background: rgba(0, 0, 0, 0.3);
     background: radial-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)); */
@@ -642,10 +642,10 @@ body {
 }
 
 .side13 {
-    top: 25px;
-    left: -386px;
+    top: 30px;
+    left: -333px;
     width: 700px;
-    height: 300px;
+    height: 494px;
     position: absolute;
     background: rgba(0, 0, 0, 0.3);
     background: radial-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
@@ -659,10 +659,10 @@ body {
     transform-origin: 50% 50% -350px;
 }
 .side13Blur {
-    top: 25px;
-    left: -386px;
+    top: 31px;
+    left: -333px;
     width: 701px;
-    height: 301px;
+    height: 495px;
     position: absolute;
     border-radius: 10px;
     color: #fff;
@@ -674,10 +674,10 @@ body {
     transform-origin: 50% 50% -350px;
 }
 .side13alt {
-    top: 25px;
-    left: -386px;
+    top: 29px;
+    left: -333px;
     width: 699px;
-    height: 299px;
+    height: 493px;
     position: absolute;
     /* background: rgba(0, 0, 0, 0.3);
     background: radial-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)); */
@@ -734,6 +734,9 @@ body {
     transform: rotateX(90deg);
 }
 #side10 {
+    transform: rotateX(-90deg) rotateY(45deg) rotateZ(90deg);
+}
+#side13 {
     transform: rotateX(-90deg) rotateY(45deg) rotateZ(90deg);
 }
 #side11 {
@@ -940,11 +943,12 @@ body {
     box-shadow: inset 15px 15px 15px rgba(255, 255, 255, 0.21),
         inset -15px -15px 15px rgba(0, 0, 0, 0.6); */
 }
+
 .tile9Solid {
     /* 86.6% = ratio of height to width of equilateral triangle */
     -webkit-clip-path: polygon(50% 0, 0 86.6%, 100% 86.6%, 50% 0);
     clip-path: url(#polygon);
-    height: 401px;
+    height: 495px;
     width: 701px;
     background-color: #141414;
     background-size: cover;
@@ -973,7 +977,7 @@ body {
     /* 86.6% = ratio of height to width of equilateral triangle */
     -webkit-clip-path: polygon(50% 0, 0 86.6%, 100% 86.6%, 50% 0);
     clip-path: url(#polygon);
-    height: 400px;
+    height: 493px;
     width: 700px;
     /* background: linear-gradient(#000000a1, transparent); */
     filter: multiply(100%);
@@ -1146,8 +1150,8 @@ a {
     width: 700px;
     height: 700px;
     margin: auto;
-    -webkit-clip-path: polygon(0px 400px, 700px 400px, 700px 0px, 0px 0px);
-    clip-path: polygon(0px 400px, 700px 400px, 700px 0px, 0px 0px);
+    -webkit-clip-path: polygon(0px 494px, 700px 494px, 700px 0px, 0px 0px);
+    clip-path: polygon(0px 494px, 700px 494px, 700px 0px, 0px 0px);
     filter: blur(8px);
 }
 
@@ -1190,7 +1194,7 @@ a {
     left: 100%;
     top: 0;
 
-    background-image: url(../assets/bg14.jpg);
+    background-image: url(../assets/bg17.jpg);
 }
 
 /* styles for each sector */
